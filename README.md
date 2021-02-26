@@ -29,6 +29,7 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 
 ### VBA Code Refactoring Results
 - 2017 Runtime Results
+
 [Original VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/OriginalVBACode2017.PNG)
 
 [Refactored VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
@@ -55,7 +56,7 @@ It prompts the user to enter a year (2017 or 2018). Based on the year entered by
   
 ### VBA Code Refactoring Summary
   
-####Changes made to the given VBA Code 
+#### Changes made to the given VBA Code 
 
 - The original code had the output of calculation results in a new worksheet inside the loop that does the calculation. 
   In the refactored code the output of the calculation was created outside of the calculation loop. 
