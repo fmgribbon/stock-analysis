@@ -7,7 +7,7 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 - To compare the stock performance for the years 2017 and 2018 based on the given stock data and VBA code. 
 - To improve processing time of  the given VBA code.  
 
-##Results
+## Results
       
 ### Stock Analysis Results 
 
