@@ -30,9 +30,13 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 ### VBA Code Refactoring Results
 - 2017 Runtime Results
 [Original VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/OriginalVBACode2017.PNG)
+
 [Refactored VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
 - 2018 Runtime Results
+
 [Original VBA Code]([Original VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/OriginalVBACode2017.PNG)
+
 [Refactored VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 Through refactoring, the following decrease runtime was seen 
