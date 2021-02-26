@@ -14,6 +14,7 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 #### Comparing stocks for the years 2017  & 2018 
 
 [2017 Stocks Annual Daily Volume and Return ](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2017.png)
+
 [2018 Stocks Annual Daily Volume and Return](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2018.png)
 
 ##### Significant changes noted.
@@ -21,11 +22,11 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 ######     Stock Return
 - The RUN stocks have the greatest increase in return (up by 78% from 6% in 2017 to 84% in 2018). 
 - The DQ stocks have the greatest decrease in return (down  by 262% from 199% in 2017 to -63% in 2018). 
+
 ######     Stock Volumes
 
 - The ENPH stocks have the greatest increase in volume up by 385 million from 222 million in 2017 to 607 million in 2018.
 - The SPWR stocks have the greatest decrease in volume down by 244 million from 782 million in 2017 to 538 million in 2018.
-
 
 ### VBA Code Refactoring Results
 - 2017 Runtime Results
