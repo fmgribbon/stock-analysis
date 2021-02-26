@@ -13,9 +13,9 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 
 #### Comparing stocks for the years 2017  & 2018 
 
-[2017 Stocks Annual Daily Volume and Return ](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2017.png)
+[Summary of 2017 Stocks Annual Daily Volume and Return](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2017.png)
 
-[2018 Stocks Annual Daily Volume and Return](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2018.png)
+[Summary of 2018 Stocks Annual Daily Volume and Return](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/AllStocks2018.png)
 
 ##### Significant changes noted.
 
@@ -36,7 +36,7 @@ This project is an analysis of the 2017 and 2018 annual stock performance using 
 [Refactored VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 - 2018 Runtime Results
-
+- 
 [Original VBA Code]([Original VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/OriginalVBACode2017.PNG)
 
 [Refactored VBA Code](https://github.com/fmgribbon/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
