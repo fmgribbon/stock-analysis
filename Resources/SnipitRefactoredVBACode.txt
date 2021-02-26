@@ -1,0 +1,69 @@
+ '**************************************************************
+    '2a) Create a for loop to initialize the tickerVolumes to zero.
+    '***************************************************************
+        For tickerIndex = 0 To 11
+        
+            tickerVolumes(tickerIndex) = 0
+
+            
+        Next tickerIndex
+        
+    '**********************************************
+    '2b) Loop over all the rows in the spreadsheet.
+    '***********************************************
+    For i = 2 To RowCount
+
+                              
+            For tickerIndex = 0 To 11
+                '**************************************
+                '3a) Increase volume for current ticker
+                '**************************************
+                 If Cells(i, 1) = tickers(tickerIndex) Then
+    
+
+                     tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8)
+                 
+                     
+     '*****************************************************************************
+     '3b) Check if the current row is the first row with the selected tickerIndex.
+     '*****************************************************************************
+
+                    If Cells(i, 1) <> Cells(i - 1, 1) Then
+
+                       tickerStartingPrice(tickerIndex) = Cells(i, 6)
+
+                   
+                    
+      '*********************************************************************
+      '3c) check if the current row is the last row with the selected ticker
+      '*********************************************************************
+
+                   ElseIf Cells(i, 1) <> Cells(i + 1, 1) Then
+
+                       tickerEndingPrice(tickerIndex) = Cells(i, 6)
+
+                       End If
+                        
+                   End If
+            '****************************
+            '3d Increase the tickerIndex.
+            '****************************
+
+             Next tickerIndex
+             
+    '**************************************************************
+    ' Increase the index i to process the next row in the worksheet
+    '**************************************************************
+    Next i
+    
+    '*********************************************************************************
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    '*********************************************************************************
+    
+    For i = 0 To 11
+        
+        Worksheets("All Stocks Analysis").Activate
+          Cells(4 + i, 1).Value = tickers(i)
+          Cells(4 + i, 2).Value = tickerVolumes(i)
+          Cells(4 + i, 3).Value = tickerEndingPrice(i) / tickerStartingPrice(i) - 1
+    Next i
